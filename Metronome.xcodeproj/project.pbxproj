@@ -12,6 +12,7 @@
 		B5FA04872082150D00CCDD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FA04852082150D00CCDD52 /* Main.storyboard */; };
 		B5FA04892082150F00CCDD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FA04882082150F00CCDD52 /* Assets.xcassets */; };
 		B5FA048C2082150F00CCDD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FA048A2082150F00CCDD52 /* LaunchScreen.storyboard */; };
+		B5FA0494208226A400CCDD52 /* MetronomeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA0493208226A400CCDD52 /* MetronomeAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B5FA04882082150F00CCDD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FA048B2082150F00CCDD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FA048D2082150F00CCDD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FA0493208226A400CCDD52 /* MetronomeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				B5FA04812082150D00CCDD52 /* AppDelegate.swift */,
+				B5FA0493208226A400CCDD52 /* MetronomeAnimation.swift */,
 				B5FA04832082150D00CCDD52 /* ViewController.swift */,
 				B5FA04852082150D00CCDD52 /* Main.storyboard */,
 				B5FA04882082150F00CCDD52 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FA04842082150D00CCDD52 /* ViewController.swift in Sources */,
+				B5FA0494208226A400CCDD52 /* MetronomeAnimation.swift in Sources */,
 				B5FA04822082150D00CCDD52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +287,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8L7QMF4ND;
 				INFOPLIST_FILE = Metronome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Metronome.Metronome;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BensMetronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,11 +306,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8L7QMF4ND;
 				INFOPLIST_FILE = Metronome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Metronome.Metronome;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BensMetronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
